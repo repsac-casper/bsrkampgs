@@ -1,0 +1,579 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*welkom section*/
+.welkom {
+    background-color: #141414;
+    background-image: linear-gradient(to bottom, transparent 80%, #141414 100%), url(images/beatsaber.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welkom_container {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.welkom_content h1 {
+    font-size: 3rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.welkom_content h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #878787;
+}
+
+/*wat section*/
+.wat {
+    background-color: #141414;
+}
+
+.wat_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.wat_content {
+    padding: 0 20px;
+}
+
+.wat_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.wat_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+.wat_content h6 {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+/*nodig section*/
+.nodig {
+    background-color: #141414;
+}
+
+.nodig_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.nodig_content {
+    padding: 0 20px;
+}
+
+.nodig_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.nodig_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+.nodig_item {
+    color: #878787;
+}
+
+.nodig_lijst {
+    padding: 0 20px;
+}
+
+/*inhoud section*/
+.inhoud {
+    background-color: #141414;
+}
+
+.inhoud_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.inhoud_content {
+    padding: 0 20px;
+}
+
+.inhoud_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.inhoud_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+.inhoud_item {
+    color: #878787;
+}
+
+.inhoud_lijst {
+    padding: 0 20px;
+}
+
+/*kiezen section*/
+.kiezen {
+    background-color: #141414;
+}
+
+.kiezen_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.kiezen_content {
+    padding: 0 20px;
+}
+
+.kiezen_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.kiezen_content h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.kiezen_content h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.kiezen_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+.kiezen_button {
+    font-size: 1rem;
+    background-color: #5C5C5C;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.kiezen_button a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.kiezen_lijst {
+    padding-left: 20px;
+}
+
+.kiezen_item {
+    color: #878787;
+}
+
+#kiezen_img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#kiezen_img_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#kiezen_img_3 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*delen section*/
+.delen {
+    background-color: #141414;
+}
+
+.delen_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.delen_content {
+    padding: 0 20px;
+}
+
+.delen_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.delen_content h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.delen_content h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.delen_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+.delen_button {
+    font-size: 1rem;
+    background-color: #5C5C5C;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.delen_button a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+#delen_img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#delen_img_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*download section*/
+.download {
+    background-color: #141414;
+}
+
+.download_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.download_content {
+    padding: 0 20px;
+}
+
+.download_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.download_content h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.download_content h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.download_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+#Download_img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#Download_img_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#Download_img_3 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#Download_img_4 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#Download_img_5 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*eerste section*/
+.eerste {
+    background-color: #141414;
+}
+
+.eerste_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.eerste_content {
+    padding: 0 20px;
+}
+
+.eerste_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.eerste_content h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.eerste_content h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.eerste_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+#eerste_img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#eerste_img_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*tweede section*/
+.tweede {
+    background-color: #141414;
+}
+
+.tweede_container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    justify-content: left;
+    justify-self: left;
+    margin: 0 auto;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+}
+
+.tweede_content {
+    padding: 0 20px;
+}
+
+.tweede_content h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #5c5c5c 0%, #878787 100%);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.tweede_content h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.tweede_content h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #878787;
+}
+
+.tweede_content p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #878787;
+}
+
+#tweede_img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#tweede_img_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
